@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MG.Pipelines", "src\MG.Pipelines\MG.Pipelines.csproj", "{871E4096-AB6E-4330-9E0A-CD0637852DAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nubuild", "nubuild", "{3BB9C24E-B24C-4C2D-AC96-60964661083A}"
+EndProject
+Project("{E09DD79A-4488-4AB9-8D3F-A7EEE78BF432}") = "Package.MG.Pipelines", "nubuild\Package.MG.Pipelines\Package.MG.Pipelines.nuproj", "{256EA25F-5485-47D6-AB6B-33E3F4B2E1F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "msbuild", "msbuild", "{A1269F51-C037-4DDA-98AA-C8F101F3C15B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0177FC65-47D3-487D-A082-A0F95CC8ECBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MG.Pipelines.Sitecore", "src\MG.Pipelines.Sitecore\MG.Pipelines.Sitecore.csproj", "{3F9A4B8D-4A34-4FAF-9CC5-FA0442B9C3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MG.Pipelines.Web.Unity", "src\MG.Pipelines.Web.Unity\MG.Pipelines.Web.Unity.csproj", "{30E4D522-302F-418F-B529-91F769A8E600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MG.Pipelines.Attribute", "src\MG.Pipelines.Attribute\MG.Pipelines.Attribute.csproj", "{6EFC5284-664F-4431-9262-DB6009E12675}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7A30782A-94B1-4D1A-8888-276414EE896A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MG.Pipelines.Attribute.Tests", "test\MG.Pipelines.Tests\MG.Pipelines.Attribute.Tests.csproj", "{DD2DB113-AED7-48AF-876D-E38DCC5DC4CA}"
+EndProject
+Project("{E09DD79A-4488-4AB9-8D3F-A7EEE78BF432}") = "Package.MG.Pipelines.Attribute", "nubuild\Package.MG.Pipelines.Attribute\Package.MG.Pipelines.Attribute.nuproj", "{6A23D28A-69A9-4908-9006-A200A9B7E3BC}"
+EndProject
+Project("{E09DD79A-4488-4AB9-8D3F-A7EEE78BF432}") = "Package.MG.Pipelines.Sitecore", "nubuild\Package.MG.Pipelines.Sitecore\Package.MG.Pipelines.Sitecore.nuproj", "{413CE863-6338-46CE-A3C6-F3550B70ED6B}"
+EndProject
+Project("{E09DD79A-4488-4AB9-8D3F-A7EEE78BF432}") = "Package.MG.Pipelines.Web.Unity", "nubuild\Package.MG.Pipelines.Web.Unity\Package.MG.Pipelines.Web.Unity.nuproj", "{0D832010-EA1D-4A51-8BCF-4F9DE214AD34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{871E4096-AB6E-4330-9E0A-CD0637852DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871E4096-AB6E-4330-9E0A-CD0637852DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871E4096-AB6E-4330-9E0A-CD0637852DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871E4096-AB6E-4330-9E0A-CD0637852DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256EA25F-5485-47D6-AB6B-33E3F4B2E1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256EA25F-5485-47D6-AB6B-33E3F4B2E1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256EA25F-5485-47D6-AB6B-33E3F4B2E1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9A4B8D-4A34-4FAF-9CC5-FA0442B9C3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9A4B8D-4A34-4FAF-9CC5-FA0442B9C3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9A4B8D-4A34-4FAF-9CC5-FA0442B9C3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9A4B8D-4A34-4FAF-9CC5-FA0442B9C3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E4D522-302F-418F-B529-91F769A8E600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E4D522-302F-418F-B529-91F769A8E600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E4D522-302F-418F-B529-91F769A8E600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E4D522-302F-418F-B529-91F769A8E600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFC5284-664F-4431-9262-DB6009E12675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFC5284-664F-4431-9262-DB6009E12675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFC5284-664F-4431-9262-DB6009E12675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFC5284-664F-4431-9262-DB6009E12675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2DB113-AED7-48AF-876D-E38DCC5DC4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2DB113-AED7-48AF-876D-E38DCC5DC4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2DB113-AED7-48AF-876D-E38DCC5DC4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2DB113-AED7-48AF-876D-E38DCC5DC4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A23D28A-69A9-4908-9006-A200A9B7E3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A23D28A-69A9-4908-9006-A200A9B7E3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A23D28A-69A9-4908-9006-A200A9B7E3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413CE863-6338-46CE-A3C6-F3550B70ED6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413CE863-6338-46CE-A3C6-F3550B70ED6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413CE863-6338-46CE-A3C6-F3550B70ED6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D832010-EA1D-4A51-8BCF-4F9DE214AD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D832010-EA1D-4A51-8BCF-4F9DE214AD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D832010-EA1D-4A51-8BCF-4F9DE214AD34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{871E4096-AB6E-4330-9E0A-CD0637852DAF} = {0177FC65-47D3-487D-A082-A0F95CC8ECBF}
+		{256EA25F-5485-47D6-AB6B-33E3F4B2E1F0} = {3BB9C24E-B24C-4C2D-AC96-60964661083A}
+		{3F9A4B8D-4A34-4FAF-9CC5-FA0442B9C3FC} = {0177FC65-47D3-487D-A082-A0F95CC8ECBF}
+		{30E4D522-302F-418F-B529-91F769A8E600} = {0177FC65-47D3-487D-A082-A0F95CC8ECBF}
+		{6EFC5284-664F-4431-9262-DB6009E12675} = {0177FC65-47D3-487D-A082-A0F95CC8ECBF}
+		{DD2DB113-AED7-48AF-876D-E38DCC5DC4CA} = {7A30782A-94B1-4D1A-8888-276414EE896A}
+		{6A23D28A-69A9-4908-9006-A200A9B7E3BC} = {3BB9C24E-B24C-4C2D-AC96-60964661083A}
+		{413CE863-6338-46CE-A3C6-F3550B70ED6B} = {3BB9C24E-B24C-4C2D-AC96-60964661083A}
+		{0D832010-EA1D-4A51-8BCF-4F9DE214AD34} = {3BB9C24E-B24C-4C2D-AC96-60964661083A}
+	EndGlobalSection
+EndGlobal
